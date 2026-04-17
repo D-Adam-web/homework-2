@@ -8,6 +8,8 @@
 body {
     font-family: "Inter", sans-serif;
     color: #303030;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 header {
@@ -41,7 +43,6 @@ header span {
 
 .main-text {
     /* Стили для текста в первой секции */
-    font-weight: 400;
     font-size: 18px;
 }
 
@@ -64,9 +65,6 @@ select {
     width: 150px;
     height: 36px;
     padding: 8px 12px;
-
-    font-weight: 400;
-    font-size: 16px;
     background: url(./assets/images/arrow-down.svg) no-repeat right 12px top 50%; /*как сделать отступ справа от стрелки?*/
     appearance: none;
 }
@@ -83,20 +81,15 @@ select {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/images/Vector.svg);
     padding: 0 20px;
-    font-weight: 400;
-    font-size: 16px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    padding-left: 0 20px;
-    font-weight: 400;
-    font-size: 16px;
+    padding-left: 20px;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
-    font-weight: 400;
     font-size: 16px;
 }
 
@@ -107,7 +100,6 @@ select {
     width: 330px;
     height: 36px;
     padding-left: 12px;
-    font-size: 16px;
 }
 
 .btn {
@@ -152,7 +144,6 @@ footer {
 
 .footer-link {
     /* Стили для футера */
-    font-weight: 400;
     font-size: 14px;
     color: #2965f1;
     text-decoration: none;
